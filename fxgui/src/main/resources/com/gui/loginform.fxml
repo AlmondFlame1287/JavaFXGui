@@ -15,11 +15,12 @@
 
       <Text text="Username:" />
       <TextField id="username" fx:id="usernameField" />
-      <Button id="readUName" text="Leggi" onAction="#getText" /> 
+      <Button id="readUName" text="DEBUG" onAction="#getText" /> 
       
       <Text text="Password:" />
       <PasswordField id="password" fx:id="passwordField"/>
-      <Button id="readPassword" text="Leggi" onAction="#getPassword" /> 
+      <Button id="readPassword" text="Login" onAction="#goToApp" />
+      <Text fx:id="errorStatus" /> 
    
    </children>
    <padding>

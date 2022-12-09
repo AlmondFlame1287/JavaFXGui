@@ -7,7 +7,7 @@ public class PrimaryCntrl {
 
     @FXML
     private void showLogin() throws IOException {
-        App.setRoot("secondary");
+        App.setRoot("loginform");
     }
 
     @FXML
